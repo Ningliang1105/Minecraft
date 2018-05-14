@@ -13,3 +13,15 @@ while i > 0:
     ministack.drawCircle(pos.x, pos.y, pos.z, i, block)
     i = i - 1
     ministack.wait(1)
+
+'''
+低难度版本：
+选定一个材料，建造一系列从小到大的圆环
+import ministack
+
+pos = ministack.getPlayerPosition("Ningliang")
+while i < 20:
+    ministack.drawCircle(pos.x, pos.y, pos.z, i, 46)
+    i = i + 1
+    ministack.wait(1)
+'''
